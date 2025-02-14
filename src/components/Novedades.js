@@ -40,6 +40,7 @@ const NovedadesStyle = styled.div`
   }
 
   p {
+    text-align: center;
     color: black !important;
   }
 `;
@@ -50,10 +51,11 @@ const Novedades = () => {
       <div className="wrapper">
         <h1>Novedades</h1>
         <div>
-          <p>
+          <p className="text-wrapper">
             Síguenos en nuestras redes sociales y descubre nuestras nuevas
             oportunidades, promociones exclusivas y avances en los proyectos.
-            ¡No te pierdas nada! <br />
+            <br /> <br />
+            ¡No te pierdas nada! <br /> <br />
             Conéctate con nosotros y sé el primero en conocer las oportunidades
             en terrenos de Chiapas, diseñados para cumplir tus sueños."
           </p>
