@@ -37,11 +37,11 @@ const HomePage = () => {
           <a className="navLink subrayado" href="#desarrollos">
             Desarrollos
           </a>
-          <a className="navLink subrayado" href="#contacto">
-            Contacto
-          </a>
           <a className="navLink subrayado" href="#novedades">
             Novedades
+          </a>
+          <a className="navLink subrayado" href="#contacto">
+            Contacto
           </a>
         </div>
 
