@@ -111,12 +111,12 @@ const HomePage = () => {
       <div id="desarrollos">
         <Desarrollos />
       </div>
+      <div id="novedades">
+        <Novedades />
+      </div>
 
       <div id="contacto">
         <Contacto />
-      </div>
-      <div id="novedades">
-        <Novedades />
       </div>
     </div>
   );
