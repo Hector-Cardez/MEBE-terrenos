@@ -57,8 +57,8 @@ const Contacto = () => {
       </div>
 
       <div className="wrapper">
-        ¿Tienes preguntas o necesitas más información? Estamos aquí para
-        ayudarte.
+        ¿Tienes preguntas o necesitas más información? <br />
+        Estamos aquí para ayudarte.
       </div>
 
       <div className="wrapper">
