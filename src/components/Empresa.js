@@ -3,13 +3,13 @@ import Carousel from "./Carousel";
 
 const EmpresaStyle = styled.div`
   background-image: linear-gradient(
-    rgba(39, 41, 49, 0.8),
+    rgb(24, 27, 38, 0.8),
     transparent,
     transparent,
     transparent,
-    rgba(39, 41, 49, 1)
+    rgb(24, 27, 38)
   );
-  background: rgba(39, 41, 49, 1);
+  background: rgb(24, 27, 38);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,15 +19,24 @@ const EmpresaStyle = styled.div`
   align-items: center;
   justify-content: center;
   z-index: 1;
+
+  h1 {
+    font-size: 3.2rem;
+    transform: translateX(10%);
+  }
+
+  .wrapper {
+    padding: 30px;
+  }
 `;
 
 const Empresa = () => {
   return (
     <EmpresaStyle>
-      <div className="text-wrapper">
+      <div className="wrapper">
         <h1>¿Quiénes somos?</h1>
-        <div className="info-wrapper">
-          <p>
+        <div>
+          <p className="text-wrapper">
             En estas dos décadas de compromiso inquebrantable, en la venta de
             terrenos en Chiapas, hemos construido una reputación de confianza,
             integridad y conocimiento profundo del mercado. Nuestra pasión por

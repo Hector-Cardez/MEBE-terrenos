@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 const ContactoStyle = styled.div`
-  // background-image: url("/assets/bg1.png");
-  // background-size: cover;
-  // background-position: center;
   background-color: rgba(39, 41, 49, 1);
   height: 20vh;
   display: flex;
