@@ -1,5 +1,13 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
+import styled from "styled-components";
+
+const CenteredWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+`;
 
 // Import arrow images
 const leftArrow = "/assets/left-arrow.svg";
@@ -51,11 +59,14 @@ const Carousel = () => {
               index === centerIndex ? "active" : ""
             }`}
           >
-            <img
-              src={image}
-              alt={`Slide ${index}`}
-              className="carousel-image"
-            />
+            {" "}
+            <CenteredWrapper>
+              <img
+                src={image}
+                alt={`Slide ${index}`}
+                className="carousel-image"
+              />
+            </CenteredWrapper>
           </div>
         ))}
       </Slider>

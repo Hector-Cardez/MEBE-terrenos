@@ -26,7 +26,13 @@ const EmpresaStyle = styled.div`
   }
 
   .wrapper {
-    padding: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    height: 100%;
   }
 `;
 
@@ -36,6 +42,7 @@ const Empresa = () => {
       <div className="wrapper">
         <h1>¿Quiénes somos?</h1>
         <div>
+          <br />
           <p className="text-wrapper">
             En estas dos décadas de compromiso inquebrantable, en la venta de
             terrenos en Chiapas, hemos construido una reputación de confianza,
@@ -45,9 +52,10 @@ const Empresa = () => {
             raíces, donde los sueños toman forma y la naturaleza se convierte en
             tu hogar!
           </p>
+          <br />
         </div>
+        <Carousel />
       </div>
-      <Carousel />
     </EmpresaStyle>
   );
 };

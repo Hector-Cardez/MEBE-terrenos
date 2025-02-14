@@ -108,7 +108,7 @@ video {
 
 /* When scrolling */
 .nav-bar-wrapper.scrolled {
-  background-color: rgba(39, 41, 49, 1);
+  background-color: rgb(24, 27, 38, 1);
 }
 .subrayado {
   text-decoration: none;
@@ -205,11 +205,6 @@ video {
   padding: 50px 0;
 }
 
-.info-wrapper .img-desarroyo {
-  width: auto;
-  height: 400px;
-  padding: 50px;
-}
 /* Main Carousel Container */
 .carousel-container {
   width: 89vw;

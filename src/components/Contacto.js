@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ContactoStyle = styled.div`
-  background-color: rgba(39, 41, 49, 1);
+  background-color: rgb(24, 27, 38, 1);
   height: 20vh;
   display: flex;
   flex-direction: row;
