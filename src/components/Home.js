@@ -61,11 +61,7 @@ const HomePage = () => {
         </div>
 
         <div className="iconos">
-          <img
-            src="/assets/linea.png"
-            alt="icono linea"
-            className="icono linea"
-          />
+          <img src="/assets/linea.png" alt="icono linea" className=" linea" />
           <a href="https://wa.me/5219616078444" target="_blank">
             <img
               src="/assets/icono-whatsapp.png"
@@ -92,11 +88,7 @@ const HomePage = () => {
             />
           </a>
 
-          <img
-            src="/assets/linea.png"
-            alt="icono linea"
-            className="icono linea"
-          />
+          <img src="/assets/linea.png" alt="icono linea" className="linea" />
         </div>
 
         <video autoPlay loop muted>
